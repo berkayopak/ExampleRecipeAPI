@@ -40,7 +40,7 @@ namespace RecipeAPI
 
             services.AddOptions<Domain.Recipe.Entities.Recipe>().ValidateDataAnnotations();
 
-            if (false)
+            if (!Configuration.GetValue<bool>("UseNoSql"))
             {
                 services.AddDbContext<DataAccess.EFCore.ApplicationContext>(options =>
                 options.UseSqlServer(

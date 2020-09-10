@@ -24,7 +24,9 @@ namespace RecipeAPI.Controllers
         [HttpPost]
         public IActionResult GetAllRecipes(int currentPage=0, int itemPerPage=1)
         {
+
             var recipes = _unitOfWork.Recipes.GetAllWithPagination(currentPage, itemPerPage)?.ToList();
+
             int? resultCount = recipes?.Count();
 
             if (recipes == null || resultCount <= 0)
@@ -78,7 +80,7 @@ namespace RecipeAPI.Controllers
                 return BadRequest(new Domain.Recipe.Payloads.Error("Wrong JSON Object", "400"));
             }
 
-            if (_recipe == null || true)
+            if (_recipe == null)
             {
                 return BadRequest(new Domain.Recipe.Payloads.Error("Wrong JSON Object", "400"));
             }

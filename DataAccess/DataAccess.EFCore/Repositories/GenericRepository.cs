@@ -35,12 +35,6 @@ namespace DataAccess.EFCore.Repositories
             return _context.Set<T>().ToList();
         }
 
-        public IQueryable<T> Include(string children)
-        {
-            return _context.Set<T>().Include(children);
-        }
-
-
         public T GetById(string id)
         {
             return _context.Set<T>().Find(id);
