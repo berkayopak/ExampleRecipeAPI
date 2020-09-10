@@ -7,13 +7,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RecipeAPI", "RecipeAPI.cspr
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DataAccess", "DataAccess", "{E2B4F16A-9871-4C60-AE8E-5FE461AF33B1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccess.EFCore", "..\DataAccess\DataAccess.EFCore\DataAccess.EFCore.csproj", "{881266EA-8E2B-4E25-8B55-3307A8068A82}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataAccess.EFCore", "..\DataAccess\DataAccess.EFCore\DataAccess.EFCore.csproj", "{881266EA-8E2B-4E25-8B55-3307A8068A82}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domains", "Domains", "{1C86F0E2-CBE1-4AA5-9060-3967093B02AF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain.Recipe", "..\Domains\Domain.Recipe\Domain.Recipe.csproj", "{049AD81B-8C03-469B-8D5E-BD1C977A29D9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Domain.Recipe", "..\Domains\Domain.Recipe\Domain.Recipe.csproj", "{049AD81B-8C03-469B-8D5E-BD1C977A29D9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccess.Mongo", "..\DataAccess\DataAccess.Mongo\DataAccess.Mongo.csproj", "{EA7620FA-0759-4DCB-B123-DD68CBBB3E0A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataAccess.Mongo", "..\DataAccess\DataAccess.Mongo\DataAccess.Mongo.csproj", "{EA7620FA-0759-4DCB-B123-DD68CBBB3E0A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
