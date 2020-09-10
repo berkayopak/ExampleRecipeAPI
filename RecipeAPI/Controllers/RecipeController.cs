@@ -60,7 +60,7 @@ namespace RecipeAPI.Controllers
         }
 
         [Route("add")]
-        [HttpPost]
+        [HttpPut]
         public IActionResult AddRecipe(Domain.Recipe.Payloads.Recipe recipe)
         {
 
